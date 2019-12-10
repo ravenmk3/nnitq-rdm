@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <groupId>raven.nnitq.restdm</groupId>
+    <artifactId>nnitq-restdm</artifactId>
+    <version>1.0-SNAPSHOT</version>
+    <packaging>pom</packaging>
+    <developers>
+        <developer>
+            <name>Raven</name>
+            <email>357679715@qq.com</email>
+        </developer>
+    </developers>
+    <modules>
+        <module>nnitq-restdm-deps</module>
+        <module>nnitq-restdm-core</module>
+        <module>nnitq-restdm-webapp</module>
+    </modules>
+    <repositories>
+        <repository>
+            <id>aliyun-public</id>
+            <name>aliyun-public</name>
+            <url>https://maven.aliyun.com/repository/public</url>
+            <releases>
+                <enabled>true</enabled>
+            </releases>
+            <snapshots>
+                <enabled>true</enabled>
+            </snapshots>
+        </repository>
+    </repositories>
+</project>
