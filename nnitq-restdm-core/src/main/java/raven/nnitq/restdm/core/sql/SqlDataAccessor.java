@@ -18,6 +18,10 @@ public class SqlDataAccessor {
         this.dataSource = dataSource;
     }
 
+    public DataSource getDataSource() {
+        return this.dataSource;
+    }
+
     public <T> T executeQuery(final String sql, final ResultSetMapper<T> mapper) {
         try (Connection connection = this.dataSource.getConnection();
              Statement statement = connection.createStatement();
